@@ -1,0 +1,17 @@
+# Consolidated dependencies for all three modules.
+# Install with:  pip install -r requirements.txt
+
+# --- Module 1: data_pipeline ---
+requests
+beautifulsoup4
+lxml
+pandas
+tabulate
+
+# --- Module 2: analytics ---
+numpy
+seaborn
+matplotlib
+scikit-learn
+imbalanced-learn
+joblib

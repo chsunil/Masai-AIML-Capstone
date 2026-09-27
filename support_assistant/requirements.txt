@@ -1,0 +1,11 @@
+# Runtime dependencies for the containerised support assistant only.
+# The repository root's requirements.txt is the consolidated list for local
+# development across all three modules; this smaller set is what the Docker
+# image needs, so the container does not ship pandas/seaborn/scikit-learn.
+fastapi
+uvicorn
+pydantic
+langgraph
+chromadb
+sentence-transformers
+torch
